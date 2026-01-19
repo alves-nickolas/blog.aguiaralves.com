@@ -14,7 +14,7 @@
     <script src="https://kit.fontawesome.com/9b896b7a03.js" crossorigin="anonymous"></script> <!--fontawesome-->
 
     <!-- Scripts -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- MathJax -->
     <script>
@@ -35,16 +35,16 @@
     <!-- Main Content -->
     <div class="wrapper">
       <section>
-        <div  id="title">
-          <h1 style="font-weight: 500">{{ site.title | default: site.github.repository_name }}</h1>
+        <header  id="title">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
           <p class="site-meta">
             By <a href="{{ site.author.website }}">{{ site.author.shortname }}</a> · <a href="{{ '/about/' | relative_url }}">About</a> · <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-        </p>
-        </div>
-        
-        {{ content }}
-
+          </p>
+        </header>
+        <main>
+          {{ content }}
+        </main>
       </section>
     </div>
   </body>
