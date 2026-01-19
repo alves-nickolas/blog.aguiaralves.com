@@ -12,7 +12,7 @@
         </article>
     {%- else -%}
         <article class="post-preview">
-            {%- include print_post_header.html post=post -%}
+            {%- include print_post_header.html post=post printlink=1 -%}
 
             <p class="post-excerpt">
                 {{ post.excerpt | strip_html | truncate: 500 }}

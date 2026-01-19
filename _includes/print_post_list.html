@@ -1,7 +1,7 @@
 <section class="post-list">
 
   {% for post in site.posts limit: include.limit %}
-    {% include print_post.html post=post type='excerpt' printlink=true %}
+    {% include print_post.html post=post type='excerpt' %}
 
     {% unless forloop.last %}
       <hr>
