@@ -18,10 +18,10 @@ layout: default
         {{ page.date | date_to_string }}
       </time>
 
-      {% if page.updated %}
+      {% if page.last_modified_at %}
         · Updated on
-        <time datetime="{{ page.updated | date_to_xmlschema }}">
-          {{ page.updated | date_to_string }}
+        <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+          {{ page.last_modified_at | date_to_string }}
         </time>
       {% endif %}
 
@@ -35,7 +35,7 @@ layout: default
   </header>
 
   <section class="post-content">
-    {{ content }}
+    {{ content | markdownify }}
   </section>
 
 </article>

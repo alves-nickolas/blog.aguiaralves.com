@@ -22,10 +22,10 @@ title: Blog
             {{ post.date | date_to_string }}
           </time>
 
-          {% if post.updated %}
+          {% if post.last_modified_at %}
             · Updated on
-            <time datetime="{{ post.updated | date_to_xmlschema }}">
-              {{ post.updated | date_to_string }}
+            <time datetime="{{ post.last_modified_at | date_to_xmlschema }}">
+              {{ post.last_modified_at | date_to_string }}
             </time>
           {% endif %}
 
