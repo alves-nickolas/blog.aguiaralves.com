@@ -2,7 +2,6 @@
 title: Negative masses are unstable
 subtitle: and we don't need energy conditions to prove it
 date: 2025-02-11
-updated: 2026-01-19
 last_modified_at: 2026-01-19
 tags: 
     - EnergyConditions 

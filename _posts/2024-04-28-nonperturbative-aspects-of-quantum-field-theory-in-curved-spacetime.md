@@ -2,7 +2,7 @@
 title: Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime
 type: thesis
 date: 2023-04-28
-updated: 2026-01-19
+last_modified_at: 2026-01-19
 tags: 
     - QFTCS 
     - AQFT 

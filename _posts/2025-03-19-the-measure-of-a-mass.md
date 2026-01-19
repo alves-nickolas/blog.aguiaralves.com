@@ -2,7 +2,7 @@
 title: The Measure of a Mass
 type: thesis
 date: 2025-03-19
-updated: 2026-01-19
+last_modified_at: 2026-01-19
 tags: 
     - EnergyConditions 
     - GR
