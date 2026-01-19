@@ -26,6 +26,9 @@ plugins:
 feed:
   excerpt_only: true
 
+last_modified_at:
+  use_git: true
+
 social:
   name: Níckolas de Aguiar Alves
   links: 
