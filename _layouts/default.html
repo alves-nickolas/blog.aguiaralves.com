@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    {% seo %}
+    {% assign seo_title = page.title -%}
+    {%- if page.subtitle -%}
+      {%- assign seo_title = page.title | append: ": " | append: page.subtitle -%}
+    {%- endif -%}
+    
+    {%- seo title=seo_title %}
 
     <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" sizes="any">
 
