@@ -21,6 +21,10 @@ github:
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-last-modified-at
+
+feed:
+  excerpt_only: true
 
 social:
   name: Níckolas de Aguiar Alves
