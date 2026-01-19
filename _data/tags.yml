@@ -1,0 +1,58 @@
+GR:
+  name: general relativity
+  src: https://aguiaralves.com/interests/GR.html
+  priority: 1
+
+QFTCS: 
+  name: quantum field theory in curved spacetime
+  src: https://aguiaralves.com/interests/QFTCS.html
+  priority: 1
+
+IRStructure:
+  name: infrared physics
+  src: https://aguiaralves.com/interests/IRStructure.html
+  priority: 1
+
+AQFT:
+  name: algebraic quantum field theory
+  src: https://aguiaralves.com/interests/AQFT.html
+  priority: 2
+
+EnergyConditions:
+  name: energy conditions
+  src: https://aguiaralves.com/interests/EnergyConditions.html
+  priority: 2
+
+EntropyBounds:
+  name: entropy bounds and holography in general spacetimes
+  src: https://aguiaralves.com/interests/EntropyBounds.html
+  priority: 2
+
+FRG:
+  name: functional renormalization group
+  src: https://aguiaralves.com/interests/FRG.html
+  priority: 2
+
+CompactObjects:
+  name: compact objects
+  priority: 3
+
+BlackHoles:
+  name: black holes
+  priority: 3
+
+GravitationalWaves:
+  name: gravitational waves
+  priority: 3
+
+AsymptoticSymmetries:
+  name: asymptotic symmetries
+  priority: 3
+
+QuantumGravity:
+  name: quantum gravity
+  priority: 3
+
+QFT:
+  name: quantum field theory
+  priority: 3
