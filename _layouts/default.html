@@ -4,11 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    {% assign seo_title = page.title -%}
-    {%- if page.subtitle -%}
-      {%- assign seo_title = page.title | append: ": " | append: page.subtitle -%}
-    {%- endif -%}
-    {%- unless page.description -%}
+    {% unless page.description -%}
       {%- assign auto_description = page.excerpt | strip_html | truncate: 300 -%}
     {%- else -%}
       {%- assign auto_description = page.description -%}

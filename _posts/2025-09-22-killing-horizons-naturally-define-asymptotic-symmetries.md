@@ -1,6 +1,6 @@
 ---
 title: Killing horizons naturally define asymptotic symmetries
-subtitle: and this could hint at modifications of gravity
+description: and this could hint at modifications of gravity
 date: 2025-09-22
 last_modified_at: 2026-01-19
 tags: 
