@@ -1,0 +1,110 @@
+title: hic sunt dracones
+tagline: "Níck"
+description: some of Níck's thoughts and notes on theoretical physicists
+
+url: "https://blog.aguiaralves.com"
+baseurl: ""
+
+author:
+  name: Níckolas de Aguiar Alves
+  email: alves.nickolas@ufabc.edu.br
+
+logo: /assets/images/favicon.ico
+image: /assets/images/social-preview.png
+lang: en-US
+
+theme: jekyll-theme-midnight
+github:
+  is_project_page: false
+plugins:
+  - jekyll-seo-tag
+
+social:
+  name: Níckolas de Aguiar Alves
+  links: 
+    - https://ui.adsabs.harvard.edu/search/q=author%3A%22de%20Aguiar%20Alves%2C%20N%C3%ADckolas%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
+    - http://arxiv.org/a/deaguiaralves_n_1
+    - https://figshare.com/authors/N_ckolas_de_Aguiar_Alves/19534192
+    - https://github.com/alves-nickolas
+    - https://inspirehep.net/authors/2663271
+    - http://lattes.cnpq.br/4933609438452718
+    - https://scholar.google.com/citations?user=j1hgjXUAAAAJ&hl=en
+    - https://www.scopus.com/authid/detail.uri?authorId=58342440400
+    - https://stackexchange.com/users/11735692/
+    - https://orcid.org/0000-0002-0309-735X
+    - https://www.webofscience.com/wos/author/record/LBI-0329-2024
+
+address:
+  position: PhD Candidate in Physics
+  institution: 
+    name: Physics @ Federal University of ABC
+    src: http://fisica.ufabc.edu.br/
+  identifiers:
+    - src: https://ui.adsabs.harvard.edu/search/q=author%3A%22de%20Aguiar%20Alves%2C%20N%C3%ADckolas%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
+      label: 'NASA ADS'
+      icon: 'ai ai-ads'
+      sort: 'ads'
+      show: false
+    - src: http://arxiv.org/a/deaguiaralves_n_1
+      label: 'arXiv'
+      icon: 'ai ai-arxiv'
+      sort: 'arxiv'
+      show: true
+    - src: "/assets/pdf/CV.pdf"
+      label: 'CV'
+      icon: 'ai ai-cv'
+      sort: 'cv'
+      show: true
+    - src: https://figshare.com/authors/N_ckolas_de_Aguiar_Alves/19534192
+      label: 'Figshare'
+      icon: 'ai ai-figshare'
+      sort: 'figshare'
+      show: false
+    - src: https://github.com/alves-nickolas
+      label: 'GitHub'
+      icon: 'fa-brands fa-github'
+      sort: 'github'
+      show: true
+    - src: https://inspirehep.net/authors/2663271
+      label: 'INSPIRE HEP'
+      icon: 'ai ai-inspire'
+      sort: 'inspire'
+      show: true
+    - src: http://lattes.cnpq.br/4933609438452718
+      label: 'Lattes CV'
+      icon: 'ai ai-lattes'
+      sort: 'lattes'
+      show: true
+    - src: https://scholar.google.com/citations?user=j1hgjXUAAAAJ&hl=en
+      label: Google Scholar
+      icon: 'fa-brands fa-google-scholar'
+      sort: 'scholar'
+      show: true
+    - src: https://www.scopus.com/authid/detail.uri?authorId=58342440400
+      label: 'Scopus'
+      icon: 'ai ai-scopus'
+      sort: 'scopus'
+      show: false
+    - src: https://stackexchange.com/users/11735692/
+      label: Stack Exchange
+      icon: 'fa-brands fa-stack-exchange'
+      sort: 'stack exchange'
+      show: true
+    - src: https://orcid.org/0000-0002-0309-735X
+      label: ORCID iD
+      icon: 'fa-brands fa-orcid'
+      sort: 'orcid'
+      show: true
+    - src: https://www.webofscience.com/wos/author/record/LBI-0329-2024
+      label: 'Web of Science'
+      icon: 'ai ai-clarivate'
+      sort: 'web of science'
+      show: false
+
+collections:
+    
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

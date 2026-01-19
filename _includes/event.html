@@ -1,0 +1,28 @@
+{%- assign event = site.data.events[include.key] -%}
+
+{%- if event.website -%}
+    <a href="{{ event.website }}" target="_blank">{{ event.name }}</a>.
+{%- else -%}
+    {{ event.name }}.
+{%- endif -%}
+{%- if event.venue -%}
+    {%- assign venue=event.venue -%}
+    {%- if venue.division %}
+         {{ venue.division }},
+    {%- endif %}
+     {{ venue.institution }}, {{ venue.city }},
+    {%- if venue.state %}
+         {{ venue.state }}, 
+    {% endif -%}
+    {{ venue.country }}.
+{%- endif -%}
+{%- case event.format -%}
+    {%- when 'online' %}
+        Online.
+    {%- when 'hybrid' %}
+        Hybrid.
+    {%- when 'inperson' %}
+        In person.
+    {%- else %}
+{%- endcase %}
+ {% include daterange.html start=event.start_date end=event.end_date -%}.
