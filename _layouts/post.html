@@ -21,22 +21,9 @@ layout: default
         {% endfor %}
       {% endif %}
     </p>
-
-    {% if page.abstract %}
-      <div class="post-abstract">
-        <strong>Abstract.</strong>
-        {{ page.abstract }}
-      </div>
-    {% endif %}
   </header>
 
   <section class="post-content">
     {{ content }}
   </section>
-
-  <p>
-  Last modified: {{ page.last_modified_at }}
-</p>
-
-
 </article>

@@ -36,11 +36,9 @@
     <div class="wrapper">
       <section>
         <header  id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <h1><a href="{{ site.url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <p class="site-meta">
-            By <a href="{{ site.author.website }}">{{ site.author.shortname }}</a> · <a href="{{ '/about/' | relative_url }}">About</a> · <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-          </p>
+          <span class="credits left">By <a href="{{ site.author.website }}">{{ site.author.shortname }}</a></span> <span class="credits right"><a href="{{ '/about/' | relative_url }}">About</a> · <a href="{{ '/feed.xml' | relative_url }}">RSS</a></span>
         </header>
         <main>
           {{ content }}
