@@ -8,6 +8,12 @@
     {%- if page.subtitle -%}
       {%- assign seo_title = page.title | append: ": " | append: page.subtitle -%}
     {%- endif -%}
+    {%- unless page.description -%}
+      {%- assign auto_description = page.excerpt | strip_html | truncate: 300 -%}
+    {%- else -%}
+      {%- assign auto_description = page.description -%}
+    {%- endunless -%}
+
     
     {%- seo title=seo_title %}
 
