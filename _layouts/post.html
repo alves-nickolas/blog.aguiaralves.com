@@ -10,8 +10,8 @@ layout: default
     <p class="post-meta">
       {{ page.date | date_to_string }}
 
-      {% if page.last_modified_at %}
-        · Updated on {{ page.last_modified_at | date: "%Y-%m-%d" }}
+      {% if page.updated %}
+        · Updated on {{ page.updated | date_to_string }}
       {% endif %}
 
       {% if page.tags %}

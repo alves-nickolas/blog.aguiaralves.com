@@ -2,6 +2,7 @@
 title: Killing horizons naturally define asymptotic symmetries
 subtitle: and this could hint at modifications of gravity
 date: 2025-09-22
+updated: 2026-01-19
 tags: 
     - IRStructure 
     - GR 
@@ -10,8 +11,6 @@ post_type: paper-note
 related_publications:
     - "2504.12514"
 ---
-
-## Introduction
 Symmetry is a guiding principle throughout physics. In a sense, one could say the study of physics is the pursuit of what the underlying symmetries of the universe are. Recently, a lot of attention has been given to the so-called asymptotic symmetries—the symmetries that emerge in spacetime as one asymptotically approaches a limiting surface. 
 
 Of particular notice are the Bondi–Metzner–Sachs[^1][^2][^3] and Dappiaggi–Moretti–Pinamonti[^4] groups. These groups characterize the asymptotic symmetries at null infinity in asymptotically flat spacetimes and the cosmological horizon in expanding universes ("asymptotically de Sitter spacetimes"), respectively. 

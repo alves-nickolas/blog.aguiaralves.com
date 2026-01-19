@@ -2,6 +2,7 @@
 title: Negative masses are unstable
 subtitle: and we don't need energy conditions to prove it
 date: 2025-02-11
+updated: 2026-01-19
 tags: 
     - EnergyConditions 
     - GR
@@ -9,9 +10,6 @@ post_type: paper-note
 related_publications:
     - "2408.00154"
 ---
-
-## Introduction
-
 A long-standing problem in physics is: why are masses positive? This is a deep question in fundamental physics and one would at first expect that an answer should be available within quantum gravity at worst. Nevertheless, it would be interesting to find simpler solutions.
 
 An answer to this question can be given, within some assumptions, in the realm of quantum field theory in curved spacetime. Namely, results due to Borde[^1] and Penrose, Sorkin, and Woolgar[^2] establish with some generality that isolated gravitating bodies have positive masses as long as their constituent matter satisfies some good properties. In more detail, the constituent matter must satisfy the achronal averaged null energy condition, which is a condition believed to be true for all quantum fields in all physically meaningful scenarios[^3][^4]. Hence, once we tell general relativity that matter is made of quantum fields, it follows that mass must be positive. 
