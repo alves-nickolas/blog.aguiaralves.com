@@ -31,7 +31,7 @@ Most work in RQI is perturbative, so it would be interesting to obtain nonpertur
 
 ## Quantum Field Theory in Curved Spacetime
 
-The first step in this journey is then to understand QFTCS. While quantum field theory in flat spacetime is often formulated in terms of canonical quantization or the path integral approach, these methods seem too arbitrary to allow a satisfactory formulation in general spacetimes. A more general approach is then the [algebraic approach]({% link _interests/AQFT.md %}). 
+The first step in this journey is then to understand QFTCS. While quantum field theory in flat spacetime is often formulated in terms of canonical quantization or the path integral approach, these methods seem too arbitrary to allow a satisfactory formulation in general spacetimes. A more general approach is then the algebraic approach. 
 
 The algebraic approach focuses on describing the observables in the theory and then considering the possible states. An observable is anything that can be measured through an experiment, and a state gives you the (probabilistic) outputs of any possible experiment for a given preparation of the system. One can argue that the space of observables must have an algebraic structure (at least a *-algebra, typically), allowing one to get a powerful mathematical machinery to study quantum field theory.
 
