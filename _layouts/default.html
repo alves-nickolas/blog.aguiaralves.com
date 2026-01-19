@@ -29,81 +29,23 @@
     <script id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
     </script>
-
-    <!-- Mobile Hamburger Toggle -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const navToggle = document.getElementById('nav-toggle');
-        const navList = document.querySelector('.nav-list');
-
-        navToggle.addEventListener('click', () => {
-          navList.classList.toggle('show');
-        });
-
-        document.querySelectorAll('.parent-toggle').forEach(toggle => {
-          toggle.addEventListener('click', (e) => {
-            e.preventDefault();
-            toggle.parentElement.classList.toggle('show');
-          });
-        });
-      });
-    </script>
   </head>
 
   <body>
-    <!-- Navigation -->
-    <nav id="Menu">
-      <button id="nav-toggle" aria-label="Toggle menu">☰</button>
-      <ul class="nav-list">
-        <li><a href="{{ site.url }}">Home</a></li>
-
-        <!--<li class="dropdown">
-          <a href="#" class="parent-toggle">About Me</a>
-          <ul class="dropdown-content">
-            <li><a href="{{ site.url }}/about">Short CV</a></li>
-            <li><a href="{{ site.url }}/about/interests">Research Interests</a></li>
-          </ul>
-        </li>
-
-        <li><a href="{{ site.url }}/publications/">Publications</a></li>
-
-        <li><a href="{{ site.url }}/seminars">Seminars</a></li>
-
-        <li><a href="{{ site.url }}/teaching">Teaching</a></li>
-
-        <li><a href="{{ site.url }}/etcetera">Et cetera</a></li>-->
-      </ul>
-    </nav>
-
     <!-- Main Content -->
     <div class="wrapper">
       <section>
         <div  id="title">
           <h1 style="font-weight: 500">{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
-          <span class="credits left">Hosted on GitHub Pages</span>
-          <span class="credits right">Theme based on "Midnight", by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+          <p class="site-meta">
+            By <a href="{{ site.author.website }}">{{ site.author.shortname }}</a> · <a href="{{ '/about/' | relative_url }}">About</a> · <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+        </p>
         </div>
         
         {{ content }}
 
       </section>
     </div>
-
-    <!-- Footer -->
-    <footer>
-      <address>{{ site.author.name }} 
-        <br/>{{ site.address.position }}
-        <br/><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-        <br/><a href="{{ site.address.institution.src }}" target="_blank">{{ site.address.institution.name }}</a>
-        <br/>
-          {% assign visible_identifiers = site.address.identifiers | where: "show", true %}
-          {% assign sorted_identifiers = visible_identifiers | sort: "sort" %}
-          {% for identifier in sorted_identifiers %}
-            <a href="{%- include relative_or_absolute_url.html src=identifier.src -%}" target="_blank" title="{{ identifier.label }}"><span class="{{ identifier.icon }}" style="font-size: 18px"></span></a>  
-          {% endfor -%}
-      </address>
-    </footer>
   </body>
 </html>
