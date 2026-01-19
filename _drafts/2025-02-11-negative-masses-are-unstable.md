@@ -1,6 +1,7 @@
 ---
 title: Negative masses are unstable
-description: and we don't need energy conditions to prove it
+description: >
+    The typical story for why we don't see negative masses focuses on assuming matter microscopically has positive mass, and then showing this implies the result for large masses too. As it turns out, general relativity itself abhors negative masses through the onset of instability. 
 date: 2025-02-11
 last_modified_at: 2026-01-19
 tags: 
