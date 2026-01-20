@@ -28,7 +28,7 @@ kontou2020EnergyConditionsGeneral:
     - name: K. Sanders
   journal: Classical and Quantum Gravity 
   volume: '37'
-  issue: '19'
+  number: '19'
   pages: '193001'
   date: 2020-09-01
   doi: 10.1088/1361-6382/ab8fcf
@@ -220,3 +220,98 @@ aguiaralves2026LecturesBondiMetzner:
   arxivclass: gr-qc
   inspire: '2913492'
   pubstate: forthcoming
+
+bondi1962GravitationalWavesVII:
+  type: article
+  author:
+    - name: "H. Bondi"
+    - name: "M. G. J. van der Burg"
+    - name: "A. W. K. Metzner"
+  date: 1962-01-01
+  title: "Gravitational Waves in General Relativity, VII. Waves from Axi-Symmetric Isolated System"
+  journal: "Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences"
+  volume: '269'
+  number: '1336'
+  pages: "pp. 21–52"
+  doi: '10.1098/rspa.1962.0161'
+
+sachs1962AsymptoticSymmetries:
+  type: article
+  author:
+    - name: "R. K. Sachs"
+  date: 1962-01-01
+  title: "Asymptotic Symmetries in Gravitational Theory"
+  journal: "Physical Review"
+  volume: '128'
+  number: '6'
+  pages: "pp. 2851–2864"
+  doi: '10.1103/PhysRev.128.2851'
+
+sachs1962GravitationalWavesVIII:
+  type: article
+  author:
+    - name: "R. K. Sachs"
+  date: 1962-01-01
+  title: "Gravitational Waves in General Relativity VIII. Waves in Asymptotically Flat Space-Time"
+  journal: "Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences"
+  volume: '270'
+  number: '1340'
+  pages: "pp. 103–126"
+  doi: '10.1098/rspa.1962.0206'
+
+dappiaggi2009CosmologicalHorizons:
+  type: article
+  author:
+    - name: "C. Dappiaggi"
+    - name: "V. Moretti"
+    - name: "N. Pinamonti"
+  date: 2009-01-01
+  title: "Cosmological Horizons and Reconstruction of Quantum Field Theories"
+  journal: "Communications in Mathematical Physics"
+  volume: '285'
+  number: '3'
+  pages: "pp. 1129–1163"
+  doi: '10.1007/s00220-008-0680-6'
+
+duval2014CarrollVersusNewton:
+  type: article
+  author:
+    - name: "C. Duval"
+    - name: "G. W. Gibbons"
+    - name: "P. A. Horvathy"
+    - name: "P. M. Zhang"
+  date: 2014-01-01
+  title: "Carroll versus Newton and Galilei: Two Dual Non-Einsteinian Concepts of Time"
+  journal: "Classical and Quantum Gravity"
+  volume: '31'
+  number: '8'
+  pages: '085016'
+  doi: 10.1088/0264-9381/31/8/085016
+
+duval2014ConformalCarrollBMS:
+  type: article
+  author:
+    - name: "C. Duval"
+    - name: "G. W. Gibbons"
+    - name: "P. A. Horvathy"
+  date: 2014-01-01
+  title: "Conformal Carroll Groups and BMS Symmetry"
+  journal: "Classical and Quantum Gravity"
+  volume: '31'
+  number: '9'
+  pages: '092001'
+  doi: 10.1088/0264-9381/31/9/092001
+
+duval2014ConformalCarrollGroups:
+  type: article
+  author:
+    - name: "C. Duval"
+    - name: "G. W. Gibbons"
+    - name: "P. A. Horvathy"
+  date: 2014-01-01
+  title: "Conformal Carroll Groups"
+  journal: "Journal of Physics A: Mathematical and Theoretical"
+  volume: '47'
+  number: '33'
+  pages: '335204'
+  doi: 10.1088/1751-8113/47/33/335204

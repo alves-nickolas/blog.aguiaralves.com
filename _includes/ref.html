@@ -2,5 +2,9 @@
   <span class="cite-error">[ref error: no key]</span>
 {%- else -%}
   {%- assign key = include.key -%}
-  <a href="#bib-{{ key }}" class="citation">{{ include.text | default: key }}</a>
+  {%- assign entry=site.data.bibliography[key] -%}
+  {%- capture bibitem -%}
+    {%- include bibitem.html entry=entry -%}
+  {%- endcapture -%}
+  <a href="#bib-{{ key }}" title="{{ bibitem | strip_html | strip_newlines }}" class="citation">{{ include.text | default: key }}</a>
 {%- endif -%}

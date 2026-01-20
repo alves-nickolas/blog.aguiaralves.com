@@ -14,12 +14,12 @@ related_publications:
 ---
 Symmetry is a guiding principle throughout physics. In a sense, one could say the study of physics is the pursuit of what the underlying symmetries of the universe are. Recently, a lot of attention has been given to the so-called asymptotic symmetries—the symmetries that emerge in spacetime as one asymptotically approaches a limiting surface. 
 
-Of particular notice are the Bondi–Metzner–Sachs[^1][^2][^3] and Dappiaggi–Moretti–Pinamonti[^4] groups. These groups characterize the asymptotic symmetries at null infinity in asymptotically flat spacetimes and the cosmological horizon in expanding universes ("asymptotically de Sitter spacetimes"), respectively. 
+Of particular notice are the Bondi–Metzner–Sachs ({% include ref.html key="bondi1962GravitationalWavesVII" text="Bondi, van der Burg, and Metzner 1962"%}; {% include ref.html key="sachs1962AsymptoticSymmetries" text="Sachs 1962"%}; {% include ref.html key="sachs1962GravitationalWavesVIII" text="Sachs 1962"%}) and Dappiaggi–Moretti–Pinamonti ({% include ref.html key="dappiaggi2009CosmologicalHorizons" text="2009" %}) groups (see my {% include ref.html key="aguiaralves2026LecturesBondiMetzner" text="recent pedagogical review"%} for an introduction). These groups characterize the asymptotic symmetries at null infinity in asymptotically flat spacetimes and the cosmological horizon in expanding universes ("asymptotically de Sitter spacetimes"), respectively. 
 
 However, it is curious that the two groups are very similar, but also very different. We would like to understand why. If we have success in extending the groups to larger versions that encompass both at the same time, then we will be able to employ techniques that are common in one setup to the other.
 
 ## Methods
-Our main mathematical tool will be the notion of a Carollian structure, introduced by Duval *et al. al.*[^5][^6][^7]. This is a generalization of the idea of a pseudo-Riemannian manifold to the case in which the metric has a degenerate direction. Instead of asking for a pair $(M,g_{ab})$, we instead ask for a triple $(N,h_{ab},n^a)$, where $n^a$ is a vector along the degenerate (null) direction.
+Our main mathematical tool will be the notion of a Carollian structure, introduced by Duval *et al.* ({% include ref.html key="duval2014CarrollVersusNewton" text="Duval, Gibbons, Horvathy, and Zhang 2014"%}; {% include ref.html key="duval2014ConformalCarrollBMS" text="Duval, Gibbons, and Horvathy 2014"%}; {% include ref.html key="duval2014ConformalCarrollGroups" text="Duval, Gibbons, and Horvathy 2014"%}). This is a generalization of the idea of a pseudo-Riemannian manifold to the case in which the metric has a degenerate direction. Instead of asking for a pair $(M,g_{ab})$, we instead ask for a triple $(N,h_{ab},n^a)$, where $n^a$ is a vector along the degenerate (null) direction.
 
 Instead of working with arbitrary null hypersurfaces, we prefer to define the notion of asymptotic (conformal) Killing horizons. These are null hypersurfaces tangent to a vector field that asymptotically satisfies the (conformal) Killing equation in the limit as one approaches the surface. These surfaces are meant to inherit properties of genuine Killing horizons, but without restricting the ambient spacetime. 
 
@@ -51,13 +51,3 @@ $G_{\text{AKH}}$ is then merely the DMP group, but $G_{\text{ACKH}}$ extends the
 Viewing the sky as a Killing horizon can lead to interesting new perspectives. For example, superdilations arising at the symmetry group at infinity may hint at memory effects hidden in modified theories of gravity. One could use symmetries to search for these theories, and then test the subsequent predictions with gravitational wave observatories. 
 
 Other possible outlooks are the investigations of bifurcate horizons, which could appear at lightcones and at spacetimes that are asymptotically flat at spatial infinity. Lastly, our analysis disfavors the possibility of exploiting superrotations as a path to a dS/CFT correspondence in the cosmological horizon.
-
-## References for this Short Summary
-
-[^1]: Bondi, Hermann, M. G. J. Van der Burg, and A. W. K. Metzner. 1962. “Gravitational Waves in General Relativity, VII. Waves from Axi-Symmetric Isolated System.” [_Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences_ 269 (1336): 21–52](https://doi.org/10.1098/rspa.1962.0161).
-[^2]: Sachs, R. K. 1962. “Asymptotic Symmetries in Gravitational Theory.” [_Physical Review_ 128 (6): 2851–64](https://doi.org/10.1103/PhysRev.128.2851).
-[^3]: Sachs, R. K. 1962. “Gravitational Waves in General Relativity VIII. Waves in Asymptotically Flat Space-Time.” [_Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences_ 270 (1340): 103–26](https://doi.org/10.1098/rspa.1962.0206).
-[^4]: Dappiaggi, Claudio, Valter Moretti, and Nicola Pinamonti. 2009. “Cosmological Horizons and Reconstruction of Quantum Field Theories.” [_Communications in Mathematical Physics_ 285 (3): 1129–63](https://doi.org/10.1007/s00220-008-0653-8).
-[^5]: Duval, C., G. W. Gibbons, P. A. Horvathy, and P. M. Zhang. 2014. “Carroll versus Newton and Galilei: Two Dual Non-Einsteinian Concepts of Time.” [_Classical and Quantum Gravity_ 31 (8)](https://doi.org/10.1088/0264-9381/31/8/085016).
-[^6]: Duval, C., G. W. Gibbons, and P. A. Horvathy. 2014. “Conformal Carroll Groups and BMS Symmetry.” [_Classical and Quantum Gravity_ 31 (9)](https://doi.org/10.1088/0264-9381/31/9/092001).
-[^7]: Duval, C., G. W. Gibbons, and P. A. Horvathy. 2014. “Conformal Carroll Groups.” [_Journal of Physics A: Mathematical and Theoretical_ 47 (33)](https://doi.org/10.1088/1751-8113/47/33/335204).
