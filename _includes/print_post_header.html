@@ -9,7 +9,7 @@
 
   {%- if post.description -%}
     <p class="post-description">
-      {{ post.description }}
+      {{ post.description | markdownify }}
     </p>
   {%- endif -%}
 
