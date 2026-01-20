@@ -5,6 +5,8 @@ layout: default
   {%- include print_post.html post=page type='full' -%}
 {%- endcapture -%}
 
-{{ rendered_post }}
+<article class="post">
+  {{ rendered_post }}
 
-{% include bibliography.html content=rendered_post %}
+  {% include bibliography.html content=rendered_post %}
+</article>

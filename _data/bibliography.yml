@@ -61,3 +61,58 @@ costa2022CanQuantumMechanics:
   doi: 10.1103/PhysRevD.105.085016
   arxiv: '2112.08881'
   arxivclass: gr-qc
+
+burbano2021PathIntegralFormulation:
+  type: article
+  title: 'A Path Integral Formulation for Particle Detectors: The Unruh-DeWitt Model as a Line Defect'
+  author: 
+    - name: I. M. Burbano 
+    - name: T. R. Perche 
+    - name: B. S. L. Torres
+  journal: Journal of High Energy Physics
+  volume: '2021'
+  pages: '76'
+  date: 2021-01-01
+  arxiv: '2012.14912'
+  arxivclass: 'hep-th'
+  doi: '10.1007/JHEP03(2021)076'
+
+dangelo2024AlgebraicQFTApproach:
+  type: article
+  title: An Algebraic QFT Approach to the Wetterich Equation on Lorentzian Manifolds
+  author: 
+    - name: E. D'Angelo
+    - name: N. Drago 
+    - name: N. Pinamonti
+    - name: K. Rejzner
+  journal: Annales Henri Poincaré
+  volume: '25'
+  pages: 'pp. 2295–2352'
+  date: 2024-04-01
+  arxiv: '2202.07580'
+  arxivclass: 'math-ph'
+  doi: '10.1007/s00023-023-01348-4'
+
+landulfo2016Nonperturbative:
+  type: article
+  author: 
+    - agsl
+  date: 2016-01-01
+  title: "Nonperturbative Approach to Relativistic Quantum Communication Channels"
+  journal: "Physical Review D"
+  volume: '93'
+  pages: '104019'
+  arxiv: '1603.06641'
+  arxivclass: gr-qc
+  doi: '10.1103/PhysRevD.93.104019'
+
+unruh1976Notes:
+  type: article
+  author: 
+    - name: W. G. Unruh
+  date: 1976-01-01
+  title: "Notes on Black-Hole Evaporation"
+  journal: "Physical Review D"
+  volume: '14'
+  pages: "pp. 870–892"
+  doi: '10.1103/PhysRevD.14.870'

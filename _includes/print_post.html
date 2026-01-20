@@ -2,14 +2,11 @@
 
 {%- case include.type -%}
     {%- when 'full' -%}
-        <article class="post">
             {%- include print_post_header.html post=post -%}
 
             <section class="post-content">
                 {{ content }}
             </section>
-
-        </article>
     {%- else -%}
         <article class="post-preview">
             {%- include print_post_header.html post=post printlink=1 -%}
