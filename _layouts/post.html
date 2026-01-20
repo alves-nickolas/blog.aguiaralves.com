@@ -1,4 +1,10 @@
 ---
 layout: default
 ---
-{% include print_post.html post=page type='full' %}
+{%- capture rendered_post -%}
+  {%- include print_post.html post=page type='full' -%}
+{%- endcapture -%}
+
+{{ rendered_post }}
+
+{% include bibliography.html content=rendered_post %}

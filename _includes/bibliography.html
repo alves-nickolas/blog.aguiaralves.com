@@ -1,0 +1,20 @@
+{%- assign cited = "" | split: "" -%}
+
+{%- for key in site.data.bibliography -%}
+  {%- assign k=key[0] -%}
+  {%- assign keyref='#bib-' | append: k -%}
+  {%- if include.content contains keyref -%}
+    {%- assign cited = cited | push: k -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if cited.size > 0 -%}
+<ol class="bibliography">
+  {% for key in cited %}
+    {%- assign entry=site.data.bibliography[key] -%}
+    <li id="bib-{{ key }}">
+      {% include bibitem.html entry=entry %}
+    </li>
+  {% endfor %}
+</ol>
+{%- endif -%}
