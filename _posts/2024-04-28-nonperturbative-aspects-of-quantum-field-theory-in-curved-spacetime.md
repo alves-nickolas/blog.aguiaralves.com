@@ -77,6 +77,6 @@ As sanity checks, the one-loop calculation and a different technique for the eva
 
 ## Conclusions
 
-At the time of publication of this thesis, the reasons for the failure of the nonperturbative calculation were still unknown, but since then they have been resolved and will be addressed in future publications. 
+At the time of publication of {% include ref.html key="aguiaralves2023NonperturbativeAspectsQuantum" text="this thesis" %}, the reasons for the failure of the nonperturbative calculation were still unknown, but since then they have been resolved and will be addressed in future publications. 
 
-The thesis also presents important pedagogical contributions through the presentations of the algebraic approach to QFTCS and of the FRG for generic field content. 
+The {% include ref.html key="aguiaralves2023NonperturbativeAspectsQuantum" text="thesis" %} also presents important pedagogical contributions through the presentations of the algebraic approach to QFTCS and of the FRG for generic field content. 

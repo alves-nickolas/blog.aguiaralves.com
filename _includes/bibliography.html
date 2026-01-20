@@ -1,16 +1,17 @@
 {%- assign cited = "" | split: "" -%}
 
-{%- for key in site.data.bibliography -%}
-  {%- assign k=key[0] -%}
-  {%- assign keyref='#bib-' | append: k -%}
+{%- for pair in site.data.bibliography | sort -%}
+  {%- assign key=pair[0] -%}
+  {%- assign keyref='#bib-' | append: key -%}
   {%- if include.content contains keyref -%}
-    {%- assign cited = cited | push: k -%}
+    {%- assign cited = cited | push: key -%}
   {%- endif -%}
 {%- endfor -%}
 
 {%- if cited.size > 0 -%}
 <ol class="bibliography">
-  {% for key in cited %}
+  {%- assign sorted_cited = cited | sort -%}
+  {% for key in sorted_cited %}
     {%- assign entry=site.data.bibliography[key] -%}
     <li id="bib-{{ key }}">
       {% include bibitem.html entry=entry %}
