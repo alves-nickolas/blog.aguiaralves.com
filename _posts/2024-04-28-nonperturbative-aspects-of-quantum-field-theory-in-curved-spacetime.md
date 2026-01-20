@@ -4,7 +4,6 @@ description: >
     My master's thesis focused on using the functional renormalization group to understand the nonperturbative behavior of a particle detector model. Here's an overview. 
 type: thesis
 date: 2023-04-28
-last_modified_at: 2026-01-19
 tags: 
     - QFTCS 
     - AQFT 

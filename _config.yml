@@ -27,7 +27,7 @@ feed:
   excerpt_only: true
 
 last_modified_at:
-  use_git: true
+  use_git: false
 
 social:
   name: Níckolas de Aguiar Alves

@@ -3,7 +3,6 @@ title: Killing horizons naturally define asymptotic symmetries
 description: >
     This may be an interesting path for new forms of holography in fundamental physics. Interestingly, it also suggests new asymptotic symmetries at null infinity, which in turn could hint at a theory of modified gravity. 
 date: 2025-09-22
-last_modified_at: 2026-01-19
 tags: 
     - IRStructure 
     - GR 
