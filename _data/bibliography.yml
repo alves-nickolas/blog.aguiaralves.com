@@ -6,7 +6,7 @@ borde1987GeodesicFocusingEnergy:
   journal: Classical and Quantum Gravity
   volume: '4'
   number: '2'
-  pages: '343–356'
+  pages: 'pp. 343–356'
   date: 1987-03-01
   doi: '10.1088/0264-9381/4/2/015'
 
@@ -19,10 +19,11 @@ penrose1993PositiveMassTheorem:
   title: A Positive Mass Theorem Based on the Focusing and Retardation of Null Geodesics 
   date: 1993-01-15
   arxiv: gr-qc/9301015
-  pubstate: unpublished
+  pubstate: prepublished
 
 kontou2020EnergyConditionsGeneral:
-  type: article 
+  type: article
+  title: Energy conditions in general relativity and quantum field theory
   author:
     - name: E.-A. Kontou 
     - name: K. Sanders
@@ -36,7 +37,8 @@ kontou2020EnergyConditionsGeneral:
   arxivclass: gr-qc
 
 wall2010ProvingAchronalAveraged:
-  type: article 
+  type: article
+  title: Proving the achronal averaged null energy condition from the generalized second law
   author:
     - name: A. C. Wall 
   journal: Physical Review D 
@@ -50,6 +52,7 @@ wall2010ProvingAchronalAveraged:
 
 costa2022CanQuantumMechanics:
   type: article 
+  title: Can quantum mechanics breed negative masses?
   author:
     - bac
     - name: G. E. A. Matsas
@@ -61,6 +64,86 @@ costa2022CanQuantumMechanics:
   doi: 10.1103/PhysRevD.105.085016
   arxiv: '2112.08881'
   arxivclass: gr-qc
+
+novikov2018StarsCreatingGravitational:
+  type: article
+  title: Stars creating a gravitational repulsion
+  author:
+    - name: I. D. Novikov
+    - name: G. S. Bisnovatyi-Kogan 
+    - name: D. I. Novikov 
+  date: 2018-01-01
+  journal: Physical Review D
+  volume: '98'
+  pages: '063528'
+  doi: '10.1103/PhysRevD.98.063528'
+  arxiv: '1807.06468'
+  arxivclass: 'gr-qc'
+
+oppenheimer1939MassiveNeutronCores:
+  type: article 
+  title: On massive neutron cores
+  author: 
+    - name: J. R. Oppenheimer 
+    - name: G. M. Volkoff
+  date: 1939-01-01
+  journal: Physical Review 
+  volume: '55'
+  pages: 'pp. 374–381'
+  doi: '10.1103/PhysRev.55.374'
+
+tolman1934RelativityThermodynamicsCosmology:
+  type: book
+  title: Relativity, Thermodynamics and Cosmology
+  author: 
+    - name: R. C. Tolman
+  publisher: Oxford University Press 
+  location: Oxford 
+  date: 1934-01-01
+
+tolman1934EffectInhomogeneityCosmological:
+  type: article 
+  title: Effects of inhomogeneity on cosmological models
+  author: 
+    - name: R. C. Tolman
+  date: 1934-01-01
+  journal: Proceedings of the National Academy of Sciences 
+  volume: '20'
+  pages: 'pp. 169–176'
+  doi: '10.1073/pnas.20.3.169'
+
+tolman1939StaticSolutionsEinsteins:
+  type: article 
+  title: Static solutions of Einstein's field equations for spheres of fluid
+  author: 
+    - name: R. C. Tolman
+  date: 1939-01-01
+  journal: Physical Review 
+  volume: '55'
+  pages: 'pp. 364–373'
+  doi: '10.1103/PhysRev.55.364'
+
+chandrasekhar1964DynamicalInstabilityGaseousPRL:
+  type: article 
+  title: Dynamical instability of gaseous masses approaching the Schwarzschild limit in general relativity
+  author: 
+    - name: S. Chandrasekhar
+  date: 1964-01-01
+  journal: Physical Review Letters
+  volume: '12'
+  pages: 'pp. 114–116'
+  doi: '10.1103/PhysRevLett.12.114'
+
+chandrasekhar1964DynamicalInstabilityGaseousApJ:
+  type: article 
+  title: Dynamical instability of gaseous masses approaching the Schwarzschild limit in general relativity
+  author: 
+    - name: S. Chandrasekhar
+  date: 1964-01-01
+  journal: The Astrophysical Journal
+  volume: '140'
+  pages: 'pp. 417–433'
+  doi: '10.1086/147938'
 
 burbano2021PathIntegralFormulation:
   type: article
