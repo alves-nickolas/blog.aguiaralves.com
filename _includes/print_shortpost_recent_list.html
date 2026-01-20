@@ -1,0 +1,10 @@
+{%- assign tags=page.tags -%}
+
+<ul>
+    {% for post in site.posts limit: 5 %}
+        {% assign common_tags = post.tags | intersection: page.tags %}
+        {% if common_tags.size > 0 %}
+            <li>{% include print_shortpost.html post=post %}</li>
+        {% endif %}
+    {% endfor %}
+</ul>

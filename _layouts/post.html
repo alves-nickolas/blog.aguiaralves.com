@@ -9,4 +9,7 @@ layout: default
   {{ rendered_post }}
 
   {% include bibliography.html content=rendered_post %}
+
+  <p><strong>Related posts:</strong></p>
+  {% include print_shortpost_recent_list.html %}
 </article>
