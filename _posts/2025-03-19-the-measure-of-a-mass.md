@@ -1,7 +1,7 @@
 ---
 title: The Measure of a Mass
 description: >
-    While "mass" is a central concept in gravitation, it is very difficult to define it in relativistic settings with sufficient generality. I recently discussed this alongside Bruno Arderucio Costa.
+    While “mass” is a central concept in gravitation, it is very difficult to define it in relativistic settings with sufficient generality. I recently discussed this alongside Bruno Arderucio Costa.
 date: 2025-03-19
 last_modified_at: 2026-01-19
 tags: 
