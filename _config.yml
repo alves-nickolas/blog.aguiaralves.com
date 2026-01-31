@@ -3,6 +3,7 @@ description: "thoughts on gravity and other topics in theoretical physics"
 
 url: "https://blog.aguiaralves.com"
 baseurl: ""
+timezone: America/Sao_Paulo
 
 author:
   shortname: Níck
