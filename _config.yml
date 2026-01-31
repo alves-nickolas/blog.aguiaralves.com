@@ -19,14 +19,6 @@ github:
   is_project_page: false
 plugins:
   - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-last-modified-at
-
-feed:
-  excerpt_only: true
-
-last_modified_at:
-  use_git: false
 
 social:
   name: Níckolas de Aguiar Alves
